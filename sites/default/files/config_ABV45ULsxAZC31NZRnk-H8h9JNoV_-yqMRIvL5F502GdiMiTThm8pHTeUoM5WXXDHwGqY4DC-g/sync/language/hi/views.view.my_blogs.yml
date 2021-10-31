@@ -1,0 +1,16 @@
+label: 'मेरे ब्लॉग'
+display:
+  default:
+    display_options:
+      fields:
+        uid:
+          label: लेखक
+        created:
+          label: 'पर लेखक'
+        view_node:
+          text: 'अधिक पढ़ें'
+      title: 'मेरे ब्लॉग'
+  page_1:
+    display_options:
+      menu:
+        title: 'मेरे ब्लॉग'

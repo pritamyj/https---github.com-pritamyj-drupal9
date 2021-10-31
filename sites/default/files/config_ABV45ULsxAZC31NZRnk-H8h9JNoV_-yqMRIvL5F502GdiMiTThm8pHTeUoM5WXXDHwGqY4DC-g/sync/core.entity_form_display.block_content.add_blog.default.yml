@@ -1,0 +1,50 @@
+uuid: 644acc6c-670d-4f60-b58b-aafa6bb88a0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.add_blog
+    - field.field.block_content.add_blog.body
+    - field.field.block_content.add_blog.field_add_blog
+  module:
+    - link
+    - text
+id: block_content.add_blog.default
+targetEntityType: block_content
+bundle: add_blog
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_add_blog:
+    weight: 27
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,34 @@
+uuid: 3ee13dbf-30eb-41aa-a337-4042e1432218
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.one_column.field_body
+    - field.field.paragraph.one_column.field_title
+    - paragraphs.paragraphs_type.one_column
+  module:
+    - text
+id: paragraph.one_column.default
+targetEntityType: paragraph
+bundle: one_column
+mode: default
+content:
+  field_body:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

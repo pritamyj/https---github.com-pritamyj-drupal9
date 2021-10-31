@@ -1,0 +1,30 @@
+uuid: 28a17598-db53-4dfe-847e-23cf8397a90d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:add_blog:2a0e8472-0808-4708-a51e-e3bb4c8059e4'
+  module:
+    - block_content
+    - system
+  theme:
+    - tara
+id: addblog
+theme: tara
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:2a0e8472-0808-4708-a51e-e3bb4c8059e4'
+settings:
+  id: 'block_content:2a0e8472-0808-4708-a51e-e3bb4c8059e4'
+  label: 'Add Blog'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /my-blogs
+    negate: false

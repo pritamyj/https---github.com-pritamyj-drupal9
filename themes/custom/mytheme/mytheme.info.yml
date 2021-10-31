@@ -1,0 +1,17 @@
+name: mytheme
+description: 'mytheme is simple drupal theme'
+base theme: stable
+type: theme
+core_version_requirement: ^8 || ^9
+package: Custom
+version: VERSION
+
+libraries: 
+  - mytheme/styling
+
+regions:
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: sidebar
+  footer: Footer

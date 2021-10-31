@@ -1,0 +1,28 @@
+uuid: 823a1dfe-eb61-4729-935c-8d2401109aba
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.add_blog
+    - field.storage.block_content.field_add_blog
+  module:
+    - link
+id: block_content.add_blog.field_add_blog
+field_name: field_add_blog
+entity_type: block_content
+bundle: add_blog
+label: 'Add Blog'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/node/add/article'
+    title: 'Add Blog'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

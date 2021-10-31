@@ -1,0 +1,28 @@
+title: 'संपर्क करें'
+description: 'यह है हमसे संपर्क करें पेज'
+elements: |
+  name:
+    '#title': नाम
+    '#required_error': 'पहले अपना नाम दर्ज करें'
+    '#pattern_error': 'कृपया केवल वर्ण दर्ज करें'
+  select_for_contact:
+    '#title': 'संपर्क के लिए चुनें'
+    '#options':
+      Email: ईमेल
+      phone: 'फ़ोन नंबर'
+  phone:
+    '#title': 'फ़ोन नंबर'
+    '#placeholder': 'मोबाइल नंबर दर्ज करें'
+  email:
+    '#title': ईमेल
+  message:
+    '#title': संदेश
+    '#description': 'कृपया अपना संदेश संदेश बॉक्स में लिखें'
+    '#help_title': 'संदेश सहायता'
+    '#help': 'नीचे दिए गए बॉक्स में टेक्स्ट टाइप करें'
+    '#more_title': अधिक
+    '#more': 'संदेश बॉक्स में संदेश टाइप करें'
+    '#counter_maximum_message': 'शेष वर्ण %d'
+  actions:
+    '#title': 'सबमिट करें बटन'
+    '#submit__label': 'मेसेज भेजें'

@@ -1,0 +1,25 @@
+uuid: bbe274bf-8086-4555-911e-0e2c013e340b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_video_column
+    - paragraphs.paragraphs_type.two_column_paragraph_
+  module:
+    - video_embed_field
+id: paragraph.two_column_paragraph_.field_video_column
+field_name: field_video_column
+entity_type: paragraph
+bundle: two_column_paragraph_
+label: 'video column'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: '0'
+    youtube: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

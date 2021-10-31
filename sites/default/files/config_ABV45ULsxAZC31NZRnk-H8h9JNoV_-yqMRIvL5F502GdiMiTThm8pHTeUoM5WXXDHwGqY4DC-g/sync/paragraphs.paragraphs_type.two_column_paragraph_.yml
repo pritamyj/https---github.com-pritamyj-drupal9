@@ -1,0 +1,10 @@
+uuid: 7b4931ac-4113-4be3-bdee-167d77adec98
+langcode: en
+status: true
+dependencies: {  }
+id: two_column_paragraph_
+label: 'Two column paragraph '
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

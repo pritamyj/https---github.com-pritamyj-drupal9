@@ -1,0 +1,8 @@
+uuid: 05550059-64dd-4921-b573-f8959bd72ec4
+langcode: en
+status: true
+dependencies: {  }
+id: add_blog
+label: 'Add Blog'
+revision: 0
+description: ''

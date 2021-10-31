@@ -1,0 +1,13 @@
+label: ब्लॉग
+display:
+  default:
+    display_title: ब्लॉग
+    display_options:
+      title: ब्लॉग
+      fields:
+        uid_1:
+          label: लेखक
+        created:
+          label: 'पर प्रकाशित'
+        view_node:
+          text: 'अधिक पढ़ें'

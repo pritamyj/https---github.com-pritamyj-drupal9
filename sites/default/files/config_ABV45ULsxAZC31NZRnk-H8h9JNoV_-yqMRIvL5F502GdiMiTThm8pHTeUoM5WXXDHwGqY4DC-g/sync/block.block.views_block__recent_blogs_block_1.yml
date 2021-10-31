@@ -1,0 +1,29 @@
+uuid: 0a292e5b-c58e-42bf-85bc-eb30bd9f58b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_blogs
+  module:
+    - system
+    - views
+  theme:
+    - tara
+id: views_block__recent_blogs_block_1
+theme: tara
+region: content_home
+weight: -5
+provider: null
+plugin: 'views_block:recent_blogs-block_1'
+settings:
+  id: 'views_block:recent_blogs-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '6'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

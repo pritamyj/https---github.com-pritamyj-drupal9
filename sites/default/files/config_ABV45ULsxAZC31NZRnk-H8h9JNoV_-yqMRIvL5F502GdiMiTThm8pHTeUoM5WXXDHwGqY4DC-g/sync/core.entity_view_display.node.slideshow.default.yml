@@ -1,0 +1,29 @@
+uuid: 11cdac1f-f23f-47ab-a3e6-6c3753ffa170
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slideshow.body
+    - node.type.slideshow
+  module:
+    - text
+    - user
+id: node.slideshow.default
+targetEntityType: node
+bundle: slideshow
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

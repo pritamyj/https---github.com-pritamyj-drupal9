@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+
+    <header class="header"> 
+        {{ page.header }}
+        <br>
+        <nav class="menu">
+            {{ page.menu }}
+        </nav>
+        <div class="heading">
+            <p>Custom Theme </p>
+        </div>
+
+    </header>
+
+    <main class="main"> 
+        <div class="content">
+            {{ page.content }}
+        </div>
+        {% if page.sidebar %}
+        <div class="sidebar"> 
+        </div>
+        {% endif %} 
+    </main>
+
+    <footer>
+        {{ page.footer }}
+    </footer>
+
+</body>
+
+</html>

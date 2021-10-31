@@ -1,0 +1,43 @@
+uuid: e11dbe48-7b22-4ccb-a393-aeafa060d3e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blog_operation.body
+    - field.field.node.blog_operation.field_add_blog
+    - node.type.blog_operation
+  module:
+    - link
+    - text
+    - user
+id: node.blog_operation.default
+targetEntityType: node
+bundle: blog_operation
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_add_blog:
+    weight: 102
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

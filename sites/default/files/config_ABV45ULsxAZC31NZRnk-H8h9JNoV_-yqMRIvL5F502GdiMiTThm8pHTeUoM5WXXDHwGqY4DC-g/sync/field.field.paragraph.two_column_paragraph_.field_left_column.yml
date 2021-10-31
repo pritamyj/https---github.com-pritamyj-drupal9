@@ -1,0 +1,21 @@
+uuid: 8c502279-badf-4583-b5aa-024a3805d1f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_left_column
+    - paragraphs.paragraphs_type.two_column_paragraph_
+  module:
+    - text
+id: paragraph.two_column_paragraph_.field_left_column
+field_name: field_left_column
+entity_type: paragraph
+bundle: two_column_paragraph_
+label: 'Left column'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
